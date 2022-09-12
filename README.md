@@ -37,9 +37,6 @@ second terminal (open to the same directory), and run `npm test` to check your w
 - Two components, `<Navbar>` and `<Home>`, are already defined in the `App.tsx`
   file. Add both of these components as _child_ components of `<App>` by
   including them in the return statement for the `App` function.
-    - **Note**: We've opted to keep all our components in a single file for now 
-    as our project is still quite small. In practice, you will typically want 
-    your components in separate files. 
 
 - Create a third component, `<About>`. The `<About>` component should also be a
   _child_ component of `<App>`.
