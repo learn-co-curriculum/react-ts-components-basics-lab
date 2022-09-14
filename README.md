@@ -19,7 +19,7 @@ Once we're done, we should get something like this:
 ![app demo](https://curriculum-content.s3.amazonaws.com/react/demo.png)
 
 For this lab, we will be rendering a few children components in our top-most
-component: `App`. All of our work will be done in `src/components/App.js`. The
+component: `App`. All of our work will be done in `src/components/App.tsx`. The
 rest of the files shouldn't need any changes.
 
 To set up the app and run it in the browser, run:
@@ -30,12 +30,11 @@ $ npm start
 ```
 
 To start, work on getting the app to match the screenshot above. Then, open up a
-second terminal (open to the same directory), and run `learn test` or `npm test`
-to check your work.
+second terminal (open to the same directory), and run `npm test` to check your work.
 
 ## Deliverables
 
-- Two components, `<Navbar>` and `<Home>`, are already defined in the `App.js`
+- Two components, `<Navbar>` and `<Home>`, are already defined in the `App.tsx`
   file. Add both of these components as _child_ components of `<App>` by
   including them in the return statement for the `App` function.
 
@@ -56,4 +55,4 @@ where you can see one possible solution to this lesson.
 - [React Components](https://reactjs.org/docs/components-and-props.html)
 
 [solution branch]:
-  https://github.com/learn-co-curriculum/react-hooks-running-tests/tree/solution
+  https://github.com/learn-co-curriculum/react-hooks-components-basics-lab/tree/solution
